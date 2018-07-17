@@ -9,6 +9,6 @@
 import Foundation
 import UIKit
 
-class RegistrationInternViewController: UIViewController {
+class RegistrationInternViewController: UITableViewController {
     
 }
