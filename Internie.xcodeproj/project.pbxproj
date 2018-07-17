@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		407BA0CB3E49AC483F8BEF45 /* Pods_Internie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */; };
 		5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */; };
 		5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF420FD1976008DCEB7 /* ViewController.swift */; };
 		5FC18DF820FD1976008DCEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DF620FD1976008DCEB7 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Internie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.debug.xcconfig"; sourceTree = "<group>"; };
 		5FC18DEF20FD1976008DCEB7 /* Internie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Internie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FC18DF420FD1976008DCEB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		5FC18DF920FD197B008DCEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FC18DFC20FD197B008DCEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FC18DFE20FD197B008DCEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD547730F0C35A14AAE0BCE8 /* Pods-Internie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407BA0CB3E49AC483F8BEF45 /* Pods_Internie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				5FC18DF120FD1976008DCEB7 /* Internie */,
 				5FC18DF020FD1976008DCEB7 /* Products */,
+				D06C1AF4CE40A7F09AC22A17 /* Pods */,
+				91A63F70BEF3AA372394EDD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = Internie;
 			sourceTree = "<group>";
 		};
+		91A63F70BEF3AA372394EDD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D06C1AF4CE40A7F09AC22A17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */,
+				BD547730F0C35A14AAE0BCE8 /* Pods-Internie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FC18E0120FD197B008DCEB7 /* Build configuration list for PBXNativeTarget "Internie" */;
 			buildPhases = (
+				F6DD0A413AE41980C3925BF1 /* [CP] Check Pods Manifest.lock */,
 				5FC18DEB20FD1976008DCEB7 /* Sources */,
 				5FC18DEC20FD1976008DCEB7 /* Frameworks */,
 				5FC18DED20FD1976008DCEB7 /* Resources */,
+				D152F7151723DE0BA9EE30B4 /* [CP] Embed Pods Frameworks */,
+				7A55D927ED4D380A80F025D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A55D927ED4D380A80F025D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Internie/Pods-Internie-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Internie/Pods-Internie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D152F7151723DE0BA9EE30B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Internie/Pods-Internie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Internie/Pods-Internie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6DD0A413AE41980C3925BF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Internie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5FC18DEB20FD1976008DCEB7 /* Sources */ = {
@@ -278,6 +368,7 @@
 		};
 		5FC18E0220FD197B008DCEB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +386,7 @@
 		};
 		5FC18E0320FD197B008DCEB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD547730F0C35A14AAE0BCE8 /* Pods-Internie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_Internie {
+  umbrella header "Pods-Internie-umbrella.h"
+
+  export *
+  module * { export * }
+}
