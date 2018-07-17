@@ -13,6 +13,9 @@
 		5FC18DF820FD1976008DCEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DF620FD1976008DCEB7 /* Main.storyboard */; };
 		5FC18DFA20FD197B008DCEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DF920FD197B008DCEB7 /* Assets.xcassets */; };
 		5FC18DFD20FD197B008DCEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DFB20FD197B008DCEB7 /* LaunchScreen.storyboard */; };
+		5FC18E1720FE5AE7008DCEB7 /* RegistrationEmployer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */; };
+		5FC18E1920FE5B27008DCEB7 /* RegistrationIntern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */; };
+		5FC18E1B20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18E1A20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift */; };
 		D46A3ABC20FE595E00E20EE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D46A3ABB20FE595E00E20EE7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +29,9 @@
 		5FC18DF920FD197B008DCEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FC18DFC20FD197B008DCEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FC18DFE20FD197B008DCEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationEmployer.storyboard; sourceTree = "<group>"; };
+		5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationIntern.storyboard; sourceTree = "<group>"; };
+		5FC18E1A20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationEmployerViewController.swift; sourceTree = "<group>"; };
 		BD547730F0C35A14AAE0BCE8 /* Pods-Internie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.release.xcconfig"; sourceTree = "<group>"; };
 		D46A3ABB20FE595E00E20EE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +121,8 @@
 			children = (
 				5FC18DFB20FD197B008DCEB7 /* LaunchScreen.storyboard */,
 				5FC18DF620FD1976008DCEB7 /* Main.storyboard */,
+				5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */,
+				5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				5FC18DF420FD1976008DCEB7 /* ViewController.swift */,
+				5FC18E1A20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -216,8 +225,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC18E1720FE5AE7008DCEB7 /* RegistrationEmployer.storyboard in Resources */,
 				5FC18DFD20FD197B008DCEB7 /* LaunchScreen.storyboard in Resources */,
 				D46A3ABC20FE595E00E20EE7 /* GoogleService-Info.plist in Resources */,
+				5FC18E1920FE5B27008DCEB7 /* RegistrationIntern.storyboard in Resources */,
 				5FC18DFA20FD197B008DCEB7 /* Assets.xcassets in Resources */,
 				5FC18DF820FD1976008DCEB7 /* Main.storyboard in Resources */,
 			);
@@ -293,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC18E1B20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift in Sources */,
 				5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */,
 				5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */,
 			);
