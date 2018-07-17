@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170B8AF020FE69D900989FB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B8AEF20FE69D900989FB3 /* LoginViewController.swift */; };
 		407BA0CB3E49AC483F8BEF45 /* Pods_Internie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */; };
 		5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */; };
 		5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF420FD1976008DCEB7 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Internie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		170B8AEF20FE69D900989FB3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.debug.xcconfig"; sourceTree = "<group>"; };
 		5FC18DEF20FD1976008DCEB7 /* Internie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Internie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				5FC18DF420FD1976008DCEB7 /* ViewController.swift */,
+				170B8AEF20FE69D900989FB3 /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170B8AF020FE69D900989FB3 /* LoginViewController.swift in Sources */,
 				5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */,
 				5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */,
 			);
@@ -440,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Internie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Internie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
