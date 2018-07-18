@@ -45,7 +45,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="single arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="34j-eY-DPJ">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="single arrow" translatesAutoresizingMaskIntoConstraints="NO" id="34j-eY-DPJ">
                                             <rect key="frame" x="344" y="11" width="15" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20" id="JCE-5E-QkK"/>
@@ -143,7 +143,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="single arrow.png" width="117" height="142"/>
+        <image name="single arrow" width="117" height="142"/>
         <namedColor name="tcHotPink">
             <color red="0.98000001910000001" green="0.32499998810000003" blue="0.52200001480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

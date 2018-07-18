@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 class JobPostViewController: UIViewController {
-    func setUpViews{
-        fullJobDescriptionView.layer.borderWidth = 1
-        fullJobDescriptionView.layer.borderColor = UIColor.black
+    func setUpViews(){
+       // fullJobDescriptionView.layer.borderWidth = 1
+        //fullJobDescriptionView.layer.borderColor = UIColor.black
     }
 }
