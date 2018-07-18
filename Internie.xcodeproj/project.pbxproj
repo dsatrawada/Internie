@@ -10,8 +10,10 @@
 		170B8AF020FE69D900989FB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B8AEF20FE69D900989FB3 /* LoginViewController.swift */; };
 		17DF005C20FE90B300BAB349 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DF005B20FE90B300BAB349 /* Login.storyboard */; };
 		17DF005E20FE910200BAB349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DF005D20FE910200BAB349 /* LaunchScreen.storyboard */; };
-		17DF006020FE961C00BAB349 /* Intern-Job-Listings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DF005F20FE961C00BAB349 /* Intern-Job-Listings.storyboard */; };
+		17DF006020FE961C00BAB349 /* Intern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DF005F20FE961C00BAB349 /* Intern.storyboard */; };
 		17DF006220FECDAD00BAB349 /* single arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 17DF006120FECDAD00BAB349 /* single arrow.png */; };
+		17DF008720FFA7C200BAB349 /* InternHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */; };
+		17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008820FFA90500BAB349 /* JobPostViewController.swift */; };
 		407BA0CB3E49AC483F8BEF45 /* Pods_Internie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */; };
 		5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */; };
 		5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF420FD1976008DCEB7 /* ViewController.swift */; };
@@ -29,8 +31,10 @@
 		170B8AEF20FE69D900989FB3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		17DF005B20FE90B300BAB349 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		17DF005D20FE910200BAB349 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		17DF005F20FE961C00BAB349 /* Intern-Job-Listings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Intern-Job-Listings.storyboard"; sourceTree = "<group>"; };
+		17DF005F20FE961C00BAB349 /* Intern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intern.storyboard; sourceTree = "<group>"; };
 		17DF006120FECDAD00BAB349 /* single arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "single arrow.png"; path = "../../../../single arrow.png"; sourceTree = "<group>"; };
+		17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternHomePageViewController.swift; sourceTree = "<group>"; };
+		17DF008820FFA90500BAB349 /* JobPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostViewController.swift; sourceTree = "<group>"; };
 		20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.debug.xcconfig"; sourceTree = "<group>"; };
 		5FC18DEF20FD1976008DCEB7 /* Internie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Internie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,9 +137,9 @@
 				5FC18DF620FD1976008DCEB7 /* Main.storyboard */,
 				17DF005B20FE90B300BAB349 /* Login.storyboard */,
 				17DF005D20FE910200BAB349 /* LaunchScreen.storyboard */,
-				5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */,
+				17DF005F20FE961C00BAB349 /* Intern.storyboard */,
 				5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */,
-				17DF005F20FE961C00BAB349 /* Intern-Job-Listings.storyboard */,
+				5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -174,6 +178,9 @@
 				5FC18DF420FD1976008DCEB7 /* ViewController.swift */,
 				5FC18E1A20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift */,
 				5FC18E1C20FE6894008DCEB7 /* RegistrationInternViewController.swift */,
+				170B8AEF20FE69D900989FB3 /* LoginViewController.swift */,
+				17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */,
+				17DF008820FFA90500BAB349 /* JobPostViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -245,7 +252,7 @@
 				5FC18E1920FE5B27008DCEB7 /* RegistrationIntern.storyboard in Resources */,
 				5FC18DFA20FD197B008DCEB7 /* Assets.xcassets in Resources */,
 				17DF005C20FE90B300BAB349 /* Login.storyboard in Resources */,
-				17DF006020FE961C00BAB349 /* Intern-Job-Listings.storyboard in Resources */,
+				17DF006020FE961C00BAB349 /* Intern.storyboard in Resources */,
 				17DF005E20FE910200BAB349 /* LaunchScreen.storyboard in Resources */,
 				17DF006220FECDAD00BAB349 /* single arrow.png in Resources */,
 				5FC18DF820FD1976008DCEB7 /* Main.storyboard in Resources */,
@@ -323,7 +330,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FC18E1B20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift in Sources */,
+				170B8AF020FE69D900989FB3 /* LoginViewController.swift in Sources */,
+				17DF008720FFA7C200BAB349 /* InternHomePageViewController.swift in Sources */,
 				5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */,
+				17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */,
 				5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */,
 				5FC18E1D20FE6894008DCEB7 /* RegistrationInternViewController.swift in Sources */,
 			);
