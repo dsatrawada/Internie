@@ -41,6 +41,7 @@
                                         </stackView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Job Title&quot; for &quot;Company Name&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3s-9k-Frv">
                                             <rect key="frame" x="33" y="11" width="245" height="21"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="internshipTitleLabel"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -79,10 +80,6 @@
                             <outlet property="delegate" destination="Fn5-XL-2sg" id="bNO-Sd-ece"/>
                         </connections>
                     </tableView>
-                    <connections>
-                        <outlet property="internshipCell" destination="jdU-jw-jgd" id="vD1-1b-iwE"/>
-                        <outlet property="internshipTitleLabel" destination="n3s-9k-Frv" id="mRI-Er-sKA"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdD-RG-Uur" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
