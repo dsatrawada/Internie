@@ -79,8 +79,8 @@
                         </connections>
                     </tableView>
                     <connections>
-                        <outlet property="internshipCell" destination="jdU-jw-jgd" id="hTN-kX-P2z"/>
-                        <outlet property="internshipTitleLabel" destination="n3s-9k-Frv" id="SQD-NO-Dsh"/>
+                        <outlet property="internshipCell" destination="jdU-jw-jgd" id="vD1-1b-iwE"/>
+                        <outlet property="internshipTitleLabel" destination="n3s-9k-Frv" id="mRI-Er-sKA"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdD-RG-Uur" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -15,7 +15,7 @@ class InternHomePageViewController: UITableViewController{
         return 2
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: potentialInternshipCell)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "potentialInternshipCell", for: indexPath)
         cell.internshipTitleLabel.text = "Job Title for Company Name"
     }
 }

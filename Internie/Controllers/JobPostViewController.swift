@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import MessageUI
 class JobPostViewController: UIViewController {
     @IBOutlet weak var jobPostNavigationBar: UINavigationBar!
     @IBOutlet weak var jobDescriptionView: UIView!
@@ -35,13 +36,13 @@ class JobPostViewController: UIViewController {
         emailCompanyButton.titleLabel?.text = ("Email  \(companyName)")
     }
     @IBAction func sendEmail(sender: UIButton) {
-//        let mailVC = MFMailComposeViewController()
-//        mailVC.mailComposeDelegate = self
-//        mailVC.setToRecipients(companyEmail)
-//        mailVC.setSubject("RE: Internie Interest")
-//        mailVC.setMessageBody("Dear \(companyName),", isHTML: false)
-//        
-//        presentViewController(mailVC, animated: true, completion: nil)
+      let mailVC = MFMailComposeViewController()
+        mailVC.mailComposeDelegate = self as! MFMailComposeViewControllerDelegate
+        mailVC.setToRecipients([companyEmail])
+        mailVC.setSubject("RE: Internie Interest")
+        mailVC.setMessageBody("Dear \(companyName),", isHTML: false)
+        
+        present(mailVC, animated: true, completion: nil)
     }
     
 }
