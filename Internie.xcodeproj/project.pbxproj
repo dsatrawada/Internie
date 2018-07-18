@@ -147,9 +147,9 @@
 				17DF005B20FE90B300BAB349 /* Login.storyboard */,
 				17DF005D20FE910200BAB349 /* LaunchScreen.storyboard */,
 				17DF005F20FE961C00BAB349 /* Intern.storyboard */,
+				5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */,
 				5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */,
 				5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */,
-				5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
