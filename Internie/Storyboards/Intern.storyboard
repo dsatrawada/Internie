@@ -29,7 +29,7 @@
                             </items>
                         </navigationBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="potentialInternshipCell" id="jdU-jw-jgd">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="potentialInternshipCell" id="jdU-jw-jgd" customClass="ListPotentialInternshipCell" customModule="Internie" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jdU-jw-jgd" id="jHb-ZJ-xRc">
@@ -69,6 +69,7 @@
                                     <constraint firstItem="n3s-9k-Frv" firstAttribute="centerY" secondItem="jdU-jw-jgd" secondAttribute="centerY" id="6R2-yY-D4U"/>
                                 </constraints>
                                 <connections>
+                                    <outlet property="internShipTitleLabel" destination="n3s-9k-Frv" id="hLT-MF-YfX"/>
                                     <segue destination="QMo-oY-rba" kind="show" id="et7-fH-C7n"/>
                                 </connections>
                             </tableViewCell>

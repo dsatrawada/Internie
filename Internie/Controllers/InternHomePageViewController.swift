@@ -9,8 +9,7 @@
 import Foundation
 import UIKit
 class InternHomePageViewController: UITableViewController{
-    @IBOutlet weak var internshipCell: UITableViewCell!
-    @IBOutlet weak var internshipTitleLabel: UILabel!
+
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 2
     }
