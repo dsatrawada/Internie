@@ -18,15 +18,31 @@ class JobPostViewController: UIViewController {
     @IBOutlet weak var companyCityAndStateLabel: UILabel!
     @IBOutlet weak var skillRequiredLabel: UILabel!
     @IBOutlet weak var companyZipLabel: UILabel!
+    @IBOutlet weak var emailCompanyButton: UIButton!
+    let companyEmail = "Company Email Address"
+    let companyName = "Company Name"
+    let requiredLanguage = "Swift"
     func setUpViews(){
         jobDescriptionView.layer.borderWidth = 1
         jobDescriptionView.layer.borderColor = UIColor.black
         jobPostNavigationBar.text = "Job Title"
-        companyNameLabel.text = "Company Name"
-        companyWebsiteLabel.text = "Company Website"
+        companyNameLabel.text = companyName
+        companyWebsiteLabel.text = "Company Website Address"
         companyAddressLabel.text = "Company Address Line 1"
-        skillRequiredLabel.text = "Language Required"
+        companyCityAndStateLabel.text = ("City" + ", State")
+        companyZipLabel.text = "Company Zip Code"
+        skillRequiredLabel.text = ("Language Required is " + \(requiredLanguage))
         jobDescriptionText.text = "Job Bio"
+        emailCompanyButton.titleLabel?.text = ("Email "+ \(companyName))
+    }
+    @IBAction func sendEmail(sender: UIButton) {
+        let mailVC = MFMailComposeViewController()
+        mailVC.mailComposeDelegate = self
+        mailVC.setToRecipients(companyEmail)
+        mailVC.setSubject("RE: Internie Interest")
+        mailVC.setMessageBody("", isHTML: false)
+        
+        presentViewController(mailVC, animated: true, completion: nil)
     }
     
 }
