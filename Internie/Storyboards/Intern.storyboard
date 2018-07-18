@@ -36,16 +36,16 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CBc-DV-2ze">
-                                            <rect key="frame" x="16" y="0.0" width="245" height="21"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CBc-DV-2ze">
+                                            <rect key="frame" x="33" y="0.0" width="245" height="21"/>
                                         </stackView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="&quot;Job Title&quot; for &quot;Company Name&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3s-9k-Frv">
-                                            <rect key="frame" x="16" y="11" width="245" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Job Title&quot; for &quot;Company Name&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3s-9k-Frv">
+                                            <rect key="frame" x="33" y="11" width="245" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="single arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="34j-eY-DPJ">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="single arrow" translatesAutoresizingMaskIntoConstraints="NO" id="34j-eY-DPJ">
                                             <rect key="frame" x="344" y="11" width="15" height="20"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="20" id="JCE-5E-QkK"/>
@@ -57,7 +57,11 @@
                                         <constraint firstItem="34j-eY-DPJ" firstAttribute="leading" secondItem="CBc-DV-2ze" secondAttribute="trailing" constant="66" id="8ME-Tn-CZg"/>
                                         <constraint firstItem="34j-eY-DPJ" firstAttribute="centerY" secondItem="jHb-ZJ-xRc" secondAttribute="centerY" id="CA3-UN-RhI"/>
                                         <constraint firstItem="34j-eY-DPJ" firstAttribute="trailing" secondItem="jHb-ZJ-xRc" secondAttribute="trailingMargin" id="Pva-dJ-WRh"/>
+                                        <constraint firstItem="CBc-DV-2ze" firstAttribute="leading" secondItem="n3s-9k-Frv" secondAttribute="leading" id="ZZa-Dz-DBC"/>
                                         <constraint firstItem="34j-eY-DPJ" firstAttribute="centerY" secondItem="n3s-9k-Frv" secondAttribute="centerY" id="ga6-WT-Yci"/>
+                                        <constraint firstItem="CBc-DV-2ze" firstAttribute="top" secondItem="jHb-ZJ-xRc" secondAttribute="top" id="i83-Oo-Jzn"/>
+                                        <constraint firstItem="CBc-DV-2ze" firstAttribute="trailing" secondItem="n3s-9k-Frv" secondAttribute="trailing" id="nDL-M0-ygU"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="CBc-DV-2ze" secondAttribute="bottom" constant="12" id="qcb-cJ-XrE"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -143,7 +147,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="single arrow.png" width="117" height="142"/>
+        <image name="single arrow" width="117" height="142"/>
         <namedColor name="tcHotPink">
             <color red="0.98000001910000001" green="0.32499998810000003" blue="0.52200001480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
