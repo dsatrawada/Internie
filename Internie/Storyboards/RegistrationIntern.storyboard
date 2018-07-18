@@ -88,7 +88,7 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PDJ-uB-gPl">
                                                             <rect key="frame" x="0.0" y="33" width="343" height="33"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C90-f1-RYN">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C90-f1-RYN">
                                                                     <rect key="frame" x="0.0" y="0.0" width="103" height="33"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <nil key="textColor"/>
@@ -97,20 +97,12 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eIK-I7-HXc">
                                                                     <rect key="frame" x="103" y="0.0" width="240" height="33"/>
                                                                     <subviews>
-                                                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V6g-yb-wsc">
-                                                                            <rect key="frame" x="6" y="8" width="228" height="17"/>
-                                                                            <nil key="textColor"/>
-                                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                                            <textInputTraits key="textInputTraits"/>
-                                                                        </textField>
+                                                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="f3h-4L-Dgk">
+                                                                            <rect key="frame" x="8" y="2" width="49" height="31"/>
+                                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                        </switch>
                                                                     </subviews>
                                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                    <constraints>
-                                                                        <constraint firstItem="V6g-yb-wsc" firstAttribute="centerX" secondItem="eIK-I7-HXc" secondAttribute="centerX" id="HhA-PM-eUF"/>
-                                                                        <constraint firstItem="V6g-yb-wsc" firstAttribute="height" secondItem="eIK-I7-HXc" secondAttribute="height" multiplier="0.5" id="WOl-Pc-w2e"/>
-                                                                        <constraint firstItem="V6g-yb-wsc" firstAttribute="width" secondItem="eIK-I7-HXc" secondAttribute="width" multiplier="0.95" id="mTc-WU-Wzn"/>
-                                                                        <constraint firstItem="V6g-yb-wsc" firstAttribute="centerY" secondItem="eIK-I7-HXc" secondAttribute="centerY" id="v06-Bc-WwW"/>
-                                                                    </constraints>
                                                                 </view>
                                                             </subviews>
                                                             <constraints>
@@ -247,7 +239,7 @@
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hcL-1z-O16">
+                                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hcL-1z-O16">
                                                                     <rect key="frame" x="103" y="0.0" width="242" height="39.5"/>
                                                                 </switch>
                                                             </subviews>
@@ -264,7 +256,7 @@
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qMl-AN-WUa">
+                                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="qMl-AN-WUa">
                                                                     <rect key="frame" x="103" y="0.0" width="242" height="39.5"/>
                                                                 </switch>
                                                             </subviews>
@@ -281,7 +273,7 @@
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i9d-jT-L7A">
+                                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="i9d-jT-L7A">
                                                                     <rect key="frame" x="103" y="0.0" width="242" height="39.5"/>
                                                                 </switch>
                                                             </subviews>
@@ -298,7 +290,7 @@
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WS5-QX-Vdg">
+                                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WS5-QX-Vdg">
                                                                     <rect key="frame" x="103" y="0.0" width="242" height="39.5"/>
                                                                 </switch>
                                                             </subviews>
