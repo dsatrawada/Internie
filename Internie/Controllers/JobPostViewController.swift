@@ -24,25 +24,24 @@ class JobPostViewController: UIViewController {
     let requiredLanguage = "Swift"
     func setUpViews(){
         jobDescriptionView.layer.borderWidth = 1
-        jobDescriptionView.layer.borderColor = UIColor.black
-        jobPostNavigationBar.text = "Job Title"
+        jobDescriptionView.layer.borderColor = UIColor.black as! CGColor
         companyNameLabel.text = companyName
         companyWebsiteLabel.text = "Company Website Address"
         companyAddressLabel.text = "Company Address Line 1"
         companyCityAndStateLabel.text = ("City" + ", State")
         companyZipLabel.text = "Company Zip Code"
-        skillRequiredLabel.text = ("Requires: " + \(requiredLanguage))
+        skillRequiredLabel.text = ("Requires: \(requiredLanguage)")
         jobDescriptionText.text = "Job Bio"
-        emailCompanyButton.titleLabel?.text = ("Email "+ \(companyName))
+        emailCompanyButton.titleLabel?.text = ("Email  \(companyName)")
     }
     @IBAction func sendEmail(sender: UIButton) {
-        let mailVC = MFMailComposeViewController()
-        mailVC.mailComposeDelegate = self
-        mailVC.setToRecipients(companyEmail)
-        mailVC.setSubject("RE: Internie Interest")
-        mailVC.setMessageBody("Dear \(companyName),", isHTML: false)
-        
-        presentViewController(mailVC, animated: true, completion: nil)
+//        let mailVC = MFMailComposeViewController()
+//        mailVC.mailComposeDelegate = self
+//        mailVC.setToRecipients(companyEmail)
+//        mailVC.setSubject("RE: Internie Interest")
+//        mailVC.setMessageBody("Dear \(companyName),", isHTML: false)
+//        
+//        presentViewController(mailVC, animated: true, completion: nil)
     }
     
 }
