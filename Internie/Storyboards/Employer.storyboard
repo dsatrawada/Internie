@@ -26,7 +26,11 @@
                             <color key="backgroundColor" name="tcHotPink"/>
                             <items>
                                 <navigationItem title="Internship Positions" id="ZHU-vc-Aiu" customClass="DisplayPotentialInternshipsViewController">
-                                    <barButtonItem key="rightBarButtonItem" systemItem="add" id="dJC-Pc-Lvr"/>
+                                    <barButtonItem key="rightBarButtonItem" systemItem="add" id="dJC-Pc-Lvr">
+                                        <connections>
+                                            <segue destination="d5J-e2-d46" kind="show" id="4OQ-UC-BhO"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </navigationItem>
                             </items>
                         </navigationBar>
@@ -66,6 +70,9 @@
                                         <constraint firstItem="exY-rp-yN2" firstAttribute="trailing" secondItem="8Tw-lj-afz" secondAttribute="trailingMargin" id="yvO-DI-1hZ"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="49X-Vu-Vdw" kind="show" id="OTj-6Z-t5X"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -91,7 +98,11 @@
                                 <color key="backgroundColor" name="tcHotPink"/>
                                 <items>
                                     <navigationItem title="Intern Name's Profile" id="np6-4z-OpQ">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="eVu-ku-6nv"/>
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="eVu-ku-6nv">
+                                            <connections>
+                                                <segue destination="49X-Vu-Vdw" kind="show" id="SPY-Vn-Md2"/>
+                                            </connections>
+                                        </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Interested" id="Akd-AG-teY"/>
                                     </navigationItem>
                                 </items>
@@ -262,6 +273,9 @@
                                         <constraint firstItem="yMi-M8-cVC" firstAttribute="leading" secondItem="5vu-60-tT3" secondAttribute="trailing" constant="66" id="pj6-t3-FCU"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="0Ld-EZ-p9j" kind="show" id="DX2-hY-POg"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -287,8 +301,16 @@
                                 <color key="backgroundColor" name="tcHotPink"/>
                                 <items>
                                     <navigationItem title="Create Internship Position" id="lA1-wY-Yf6">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="z6i-M2-xXo"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="5K6-W1-vWA"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="z6i-M2-xXo">
+                                            <connections>
+                                                <segue destination="k2e-Z0-7d2" kind="show" id="QPo-cE-eAN"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="5K6-W1-vWA">
+                                            <connections>
+                                                <segue destination="k2e-Z0-7d2" kind="show" id="rTD-bp-sSw"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -423,4 +445,9 @@
             <color red="0.98000001910000001" green="0.32499998810000003" blue="0.52200001480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4OQ-UC-BhO"/>
+        <segue reference="OTj-6Z-t5X"/>
+        <segue reference="rTD-bp-sSw"/>
+    </inferredMetricsTieBreakers>
 </document>
