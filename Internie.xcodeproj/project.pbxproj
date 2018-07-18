@@ -14,6 +14,11 @@
 		17DF008720FFA7C200BAB349 /* InternHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */; };
 		17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008820FFA90500BAB349 /* JobPostViewController.swift */; };
 		407BA0CB3E49AC483F8BEF45 /* Pods_Internie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */; };
+		5FA0C9AF20FFB6EB0085CFB8 /* Employer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */; };
+		5FA0C9B120FFB75E0085CFB8 /* EmployerHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B020FFB75E0085CFB8 /* EmployerHomePageViewController.swift */; };
+		5FA0C9B320FFBC9F0085CFB8 /* CreateJobPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B220FFBC9F0085CFB8 /* CreateJobPostViewController.swift */; };
+		5FA0C9B520FFBD1B0085CFB8 /* InternMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B420FFBD1B0085CFB8 /* InternMatchesViewController.swift */; };
+		5FA0C9B720FFBD950085CFB8 /* InternProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B620FFBD950085CFB8 /* InternProfileViewController.swift */; };
 		5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */; };
 		5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF420FD1976008DCEB7 /* ViewController.swift */; };
 		5FC18DF820FD1976008DCEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DF620FD1976008DCEB7 /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 		17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternHomePageViewController.swift; sourceTree = "<group>"; };
 		17DF008820FFA90500BAB349 /* JobPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostViewController.swift; sourceTree = "<group>"; };
 		20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.debug.xcconfig"; sourceTree = "<group>"; };
+		5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Employer.storyboard; sourceTree = "<group>"; };
+		5FA0C9B020FFB75E0085CFB8 /* EmployerHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerHomePageViewController.swift; sourceTree = "<group>"; };
+		5FA0C9B220FFBC9F0085CFB8 /* CreateJobPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJobPostViewController.swift; sourceTree = "<group>"; };
+		5FA0C9B420FFBD1B0085CFB8 /* InternMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternMatchesViewController.swift; sourceTree = "<group>"; };
+		5FA0C9B620FFBD950085CFB8 /* InternProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternProfileViewController.swift; sourceTree = "<group>"; };
 		5FC18DEF20FD1976008DCEB7 /* Internie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Internie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FC18DF420FD1976008DCEB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +149,7 @@
 				17DF005F20FE961C00BAB349 /* Intern.storyboard */,
 				5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */,
 				5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */,
+				5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -181,6 +192,10 @@
 				170B8AEF20FE69D900989FB3 /* LoginViewController.swift */,
 				17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */,
 				17DF008820FFA90500BAB349 /* JobPostViewController.swift */,
+				5FA0C9B020FFB75E0085CFB8 /* EmployerHomePageViewController.swift */,
+				5FA0C9B220FFBC9F0085CFB8 /* CreateJobPostViewController.swift */,
+				5FA0C9B420FFBD1B0085CFB8 /* InternMatchesViewController.swift */,
+				5FA0C9B620FFBD950085CFB8 /* InternProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,6 +264,7 @@
 				5FC18E1720FE5AE7008DCEB7 /* RegistrationEmployer.storyboard in Resources */,
 				D46A3ABC20FE595E00E20EE7 /* GoogleService-Info.plist in Resources */,
 				5FC18E1920FE5B27008DCEB7 /* RegistrationIntern.storyboard in Resources */,
+				5FA0C9AF20FFB6EB0085CFB8 /* Employer.storyboard in Resources */,
 				5FC18DFA20FD197B008DCEB7 /* Assets.xcassets in Resources */,
 				17DF005C20FE90B300BAB349 /* Login.storyboard in Resources */,
 				17DF006020FE961C00BAB349 /* Intern.storyboard in Resources */,
@@ -328,13 +344,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FC18E1B20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift in Sources */,
+				5FA0C9B120FFB75E0085CFB8 /* EmployerHomePageViewController.swift in Sources */,
+				5FA0C9B520FFBD1B0085CFB8 /* InternMatchesViewController.swift in Sources */,
 				170B8AF020FE69D900989FB3 /* LoginViewController.swift in Sources */,
+				5FA0C9B720FFBD950085CFB8 /* InternProfileViewController.swift in Sources */,
 				17DF008720FFA7C200BAB349 /* InternHomePageViewController.swift in Sources */,
 				5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */,
 				8C4C6D9120FFDFD7004EB980 /* User.swift in Sources */,
 				17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */,
 				5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */,
 				5FC18E1D20FE6894008DCEB7 /* RegistrationInternViewController.swift in Sources */,
+				5FA0C9B320FFBC9F0085CFB8 /* CreateJobPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

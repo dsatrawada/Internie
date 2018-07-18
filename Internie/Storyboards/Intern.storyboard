@@ -60,8 +60,11 @@
                                         <constraint firstItem="CBc-DV-2ze" firstAttribute="leading" secondItem="n3s-9k-Frv" secondAttribute="leading" id="NZX-Zu-3JQ"/>
                                         <constraint firstItem="34j-eY-DPJ" firstAttribute="trailing" secondItem="jHb-ZJ-xRc" secondAttribute="trailingMargin" id="Pva-dJ-WRh"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="CBc-DV-2ze" secondAttribute="bottom" constant="12" id="e44-oP-tjp"/>
+                                        <constraint firstItem="CBc-DV-2ze" firstAttribute="leading" secondItem="n3s-9k-Frv" secondAttribute="leading" id="ZZa-Dz-DBC"/>
                                         <constraint firstItem="34j-eY-DPJ" firstAttribute="centerY" secondItem="n3s-9k-Frv" secondAttribute="centerY" id="ga6-WT-Yci"/>
-                                        <constraint firstItem="CBc-DV-2ze" firstAttribute="top" secondItem="jHb-ZJ-xRc" secondAttribute="top" id="oL2-0h-mPm"/>
+                                        <constraint firstItem="CBc-DV-2ze" firstAttribute="top" secondItem="jHb-ZJ-xRc" secondAttribute="top" id="i83-Oo-Jzn"/>
+                                        <constraint firstItem="CBc-DV-2ze" firstAttribute="trailing" secondItem="n3s-9k-Frv" secondAttribute="trailing" id="nDL-M0-ygU"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="CBc-DV-2ze" secondAttribute="bottom" constant="12" id="qcb-cJ-XrE"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <accessibility key="accessibilityConfiguration" identifier="potentialInternshipCell"/>
