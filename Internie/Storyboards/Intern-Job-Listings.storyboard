@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Display Potential Internships-->
+        <scene sceneID="Ys6-un-iqb">
+            <objects>
+                <tableViewController id="Fn5-XL-2sg" customClass="DisplayPotentialInternships" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Zlh-RB-Mx2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="uSj-0U-6vw">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" name="tcHotPink"/>
+                            <items>
+                                <navigationItem title="Potential Internships" id="AXb-zf-Mp8" customClass="DisplayPotentialInternshipsViewController"/>
+                            </items>
+                        </navigationBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="jdU-jw-jgd">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jdU-jw-jgd" id="jHb-ZJ-xRc">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CBc-DV-2ze">
+                                            <rect key="frame" x="16" y="0.0" width="245" height="21"/>
+                                        </stackView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="&quot;Job Title&quot; for &quot;Company Name&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3s-9k-Frv">
+                                            <rect key="frame" x="16" y="11" width="245" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="single arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="34j-eY-DPJ">
+                                            <rect key="frame" x="344" y="11" width="15" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="JCE-5E-QkK"/>
+                                                <constraint firstAttribute="width" constant="15" id="ftW-tE-LON"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="34j-eY-DPJ" firstAttribute="leading" secondItem="CBc-DV-2ze" secondAttribute="trailing" constant="66" id="8ME-Tn-CZg"/>
+                                        <constraint firstItem="34j-eY-DPJ" firstAttribute="centerY" secondItem="jHb-ZJ-xRc" secondAttribute="centerY" id="CA3-UN-RhI"/>
+                                        <constraint firstItem="34j-eY-DPJ" firstAttribute="trailing" secondItem="jHb-ZJ-xRc" secondAttribute="trailingMargin" id="Pva-dJ-WRh"/>
+                                        <constraint firstItem="34j-eY-DPJ" firstAttribute="centerY" secondItem="n3s-9k-Frv" secondAttribute="centerY" id="ga6-WT-Yci"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="QMo-oY-rba" kind="show" id="et7-fH-C7n"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Fn5-XL-2sg" id="9O2-bP-da7"/>
+                            <outlet property="delegate" destination="Fn5-XL-2sg" id="bNO-Sd-ece"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FdD-RG-Uur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-164" y="74.212893553223395"/>
+        </scene>
+        <!--Display Internship Details-->
+        <scene sceneID="hzw-gS-Q4p">
+            <objects>
+                <viewController id="QMo-oY-rba" customClass="DisplayInternshipDetails" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="26G-bk-ZP4" userLabel="Internship Posting">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lfr-lm-SPd" customClass="DisplayInternshipViewController">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dxB-F6-Rl3">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Job Title" id="3Vy-hD-VXr">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="fxB-XV-lQO">
+                                            <color key="tintColor" name="tcHotPink"/>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pfH-Cs-dTP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G3y-ua-fPc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564" y="74"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="single arrow.png" width="117" height="142"/>
+        <namedColor name="tcHotPink">
+            <color red="0.98000001910000001" green="0.32499998810000003" blue="0.52200001480000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
