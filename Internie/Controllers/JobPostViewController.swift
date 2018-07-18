@@ -31,7 +31,7 @@ class JobPostViewController: UIViewController {
         companyAddressLabel.text = "Company Address Line 1"
         companyCityAndStateLabel.text = ("City" + ", State")
         companyZipLabel.text = "Company Zip Code"
-        skillRequiredLabel.text = ("Language Required is " + \(requiredLanguage))
+        skillRequiredLabel.text = ("Requires: " + \(requiredLanguage))
         jobDescriptionText.text = "Job Bio"
         emailCompanyButton.titleLabel?.text = ("Email "+ \(companyName))
     }
@@ -40,7 +40,7 @@ class JobPostViewController: UIViewController {
         mailVC.mailComposeDelegate = self
         mailVC.setToRecipients(companyEmail)
         mailVC.setSubject("RE: Internie Interest")
-        mailVC.setMessageBody("", isHTML: false)
+        mailVC.setMessageBody("Dear \(companyName),", isHTML: false)
         
         presentViewController(mailVC, animated: true, completion: nil)
     }
