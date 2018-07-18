@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170B8AF020FE69D900989FB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B8AEF20FE69D900989FB3 /* LoginViewController.swift */; };
 		407BA0CB3E49AC483F8BEF45 /* Pods_Internie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */; };
 		5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */; };
 		5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF420FD1976008DCEB7 /* ViewController.swift */; };
@@ -15,11 +14,13 @@
 		5FC18DFA20FD197B008DCEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DF920FD197B008DCEB7 /* Assets.xcassets */; };
 		5FC18DFD20FD197B008DCEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DFB20FD197B008DCEB7 /* LaunchScreen.storyboard */; };
 		D46A3ABC20FE595E00E20EE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D46A3ABB20FE595E00E20EE7 /* GoogleService-Info.plist */; };
+		D482369C20FE8FFE008614DA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D482369B20FE8FFE008614DA /* Login.storyboard */; };
+		D482369E20FEA351008614DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D482369D20FEA351008614DA /* User.swift */; };
+		D48236A020FFA31C008614DA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D482369F20FFA31C008614DA /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Internie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		170B8AEF20FE69D900989FB3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.debug.xcconfig"; sourceTree = "<group>"; };
 		5FC18DEF20FD1976008DCEB7 /* Internie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Internie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +31,9 @@
 		5FC18DFE20FD197B008DCEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD547730F0C35A14AAE0BCE8 /* Pods-Internie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.release.xcconfig"; sourceTree = "<group>"; };
 		D46A3ABB20FE595E00E20EE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D482369B20FE8FFE008614DA /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D482369D20FEA351008614DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D482369F20FFA31C008614DA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 		D46A3ABF20FE59FA00E20EE7 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				D482369B20FE8FFE008614DA /* Login.storyboard */,
 				5FC18DFB20FD197B008DCEB7 /* LaunchScreen.storyboard */,
 				5FC18DF620FD1976008DCEB7 /* Main.storyboard */,
 			);
@@ -131,6 +136,7 @@
 		D46A3AC120FE5A0800E20EE7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D482369D20FEA351008614DA /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,7 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				5FC18DF420FD1976008DCEB7 /* ViewController.swift */,
-				170B8AEF20FE69D900989FB3 /* LoginViewController.swift */,
+				D482369F20FFA31C008614DA /* LoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 				5FC18DFD20FD197B008DCEB7 /* LaunchScreen.storyboard in Resources */,
 				D46A3ABC20FE595E00E20EE7 /* GoogleService-Info.plist in Resources */,
 				5FC18DFA20FD197B008DCEB7 /* Assets.xcassets in Resources */,
+				D482369C20FE8FFE008614DA /* Login.storyboard in Resources */,
 				5FC18DF820FD1976008DCEB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +303,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170B8AF020FE69D900989FB3 /* LoginViewController.swift in Sources */,
+				D482369E20FEA351008614DA /* User.swift in Sources */,
+				D48236A020FFA31C008614DA /* LoginViewController.swift in Sources */,
 				5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */,
 				5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */,
 			);
@@ -444,13 +452,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Internie/Info.plist;
+				DEVELOPMENT_TEAM = E4GY5V492N;
+				INFOPLIST_FILE = "$(SRCROOT)/Internie/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Internie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Internie123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,13 +472,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Internie/Info.plist;
+				DEVELOPMENT_TEAM = E4GY5V492N;
+				INFOPLIST_FILE = "$(SRCROOT)/Internie/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Internie;
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.Internie123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
