@@ -21,10 +21,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mBi-G8-522">
-                                <rect key="frame" x="20" y="148" width="335" height="327"/>
+                                <rect key="frame" x="20" y="148.5" width="335" height="326.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="nVQ-np-jKD">
-                                        <rect key="frame" x="0.0" y="0.0" width="75" height="327"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="326.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTO-E3-2rv">
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="21"/>
@@ -81,7 +81,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Website" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ey9-WK-hi3">
-                                                <rect key="frame" x="0.0" y="306" width="64" height="21"/>
+                                                <rect key="frame" x="0.0" y="306" width="64" height="20.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="BQp-yS-hDm"/>
                                                 </constraints>
@@ -92,16 +92,16 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="Ovl-Fk-CnU">
-                                        <rect key="frame" x="85" y="0.0" width="250" height="327"/>
+                                        <rect key="frame" x="85" y="0.0" width="250" height="326.5"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m3L-LX-CHl">
-                                                <rect key="frame" x="0.0" y="0.0" width="250" height="33"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="32.5"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dwr-mU-g44">
-                                                <rect key="frame" x="0.0" y="52" width="250" height="30"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dwr-mU-g44" userLabel="Employer Phone Field">
+                                                <rect key="frame" x="0.0" y="51.5" width="250" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="lrE-JS-BAu"/>
                                                 </constraints>
@@ -110,7 +110,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jeZ-dm-F5A">
-                                                <rect key="frame" x="0.0" y="101" width="250" height="30"/>
+                                                <rect key="frame" x="0.0" y="100.5" width="250" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="eYM-Je-FiK"/>
                                                 </constraints>
@@ -119,7 +119,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QIv-FT-nPR">
-                                                <rect key="frame" x="0.0" y="150" width="250" height="30"/>
+                                                <rect key="frame" x="0.0" y="149.5" width="250" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="6PO-iX-UhT"/>
                                                 </constraints>
@@ -128,7 +128,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ICX-rV-oEP">
-                                                <rect key="frame" x="0.0" y="199" width="250" height="30"/>
+                                                <rect key="frame" x="0.0" y="198.5" width="250" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="kKM-ZJ-lMp"/>
                                                 </constraints>
@@ -137,7 +137,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vw4-Ju-6JW">
-                                                <rect key="frame" x="0.0" y="248" width="250" height="30"/>
+                                                <rect key="frame" x="0.0" y="247.5" width="250" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="JEI-Fi-ytw"/>
                                                 </constraints>
@@ -146,7 +146,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qLx-E5-2do">
-                                                <rect key="frame" x="0.0" y="297" width="250" height="30"/>
+                                                <rect key="frame" x="0.0" y="296.5" width="250" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="sMs-0k-wEg"/>
                                                 </constraints>
@@ -175,7 +175,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Employer Registration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90w-s1-fQa">
-                                <rect key="frame" x="30" y="47" width="315" height="61"/>
+                                <rect key="frame" x="30" y="47.5" width="315" height="61"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -202,7 +202,7 @@
                         <outlet property="EmployerCityField" destination="QIv-FT-nPR" id="kbR-kF-9Zc"/>
                         <outlet property="EmployerEmailField" destination="Dwr-mU-g44" id="CVD-vx-Ibj"/>
                         <outlet property="EmployerNameField" destination="m3L-LX-CHl" id="fH7-ww-Yaa"/>
-                        <outlet property="EmployerPhoneField" destination="WVu-tV-837" id="P1F-fN-j1L"/>
+                        <outlet property="EmployerPhoneField" destination="Dwr-mU-g44" id="BnV-3a-E7a"/>
                         <outlet property="EmployerStateField" destination="ICX-rV-oEP" id="85C-41-P9k"/>
                         <outlet property="EmployerWebsiteField" destination="qLx-E5-2do" id="iUF-H8-LbN"/>
                         <outlet property="EmployerZipCodeField" destination="vw4-Ju-6JW" id="Tf0-p2-1FO"/>

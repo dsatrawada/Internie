@@ -17,11 +17,11 @@ class RegistrationEmployerViewController: UIViewController {
     @IBOutlet weak var EmployerEmailField: UITextField!
     @IBOutlet weak var EmployerAddressField: UITextField!
     
+    @IBOutlet weak var EmployerPhoneField: UITextField!
     @IBOutlet weak var EmployerWebsiteField: UITextField!
     @IBOutlet weak var EmployerZipCodeField: UITextField!
     @IBOutlet weak var EmployerStateField: UITextField!
     @IBOutlet weak var EmployerCityField: UITextField!
-    @IBOutlet weak var EmployerPhoneField: UITextField!
     @IBAction func CreateEmployerButtonTapped(_ sender: UIButton) {
         
         
