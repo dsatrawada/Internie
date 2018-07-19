@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="k2e-Z0-7d2">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -298,7 +298,11 @@
                                 <items>
                                     <navigationItem title="Create Internship Position" id="lA1-wY-Yf6">
                                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="z6i-M2-xXo"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="5K6-W1-vWA"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="5K6-W1-vWA">
+                                            <connections>
+                                                <action selector="SaveJobPostTapped:" destination="d5J-e2-d46" id="Uds-Kg-hL3"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -421,6 +425,15 @@
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="CPlusPlusSwitch" destination="HhS-eh-fLC" id="WbO-Va-h7M"/>
+                        <outlet property="EmployerJobDescriptionField" destination="9u6-Ti-dE2" id="2nw-Mh-QOm"/>
+                        <outlet property="EmployerJobTitle" destination="mJs-zE-We3" id="bVJ-t2-DHa"/>
+                        <outlet property="JavaSwitch" destination="Rmq-Rm-Ag4" id="w2Y-j6-CkA"/>
+                        <outlet property="JobPostSaveButton" destination="5K6-W1-vWA" id="M6J-tP-YtW"/>
+                        <outlet property="PythonSwitch" destination="TcG-61-G4N" id="b8u-gT-fEe"/>
+                        <outlet property="SwiftSwitch" destination="Z7Y-0V-MOd" id="KsV-Uc-Oso"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rsd-Ol-KDp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
