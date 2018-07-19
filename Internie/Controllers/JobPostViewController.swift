@@ -9,7 +9,8 @@
 import Foundation
 import UIKit
 import MessageUI
-class JobPostViewController: UIViewController {
+class JobPostViewController: UIViewController, MFMailComposeViewControllerDelegate
+{
     @IBOutlet weak var jobPostNavigationBar: UINavigationBar!
     @IBOutlet weak var jobDescriptionView: UIView!
     @IBOutlet weak var jobDescriptionText: UILabel!
@@ -34,10 +35,11 @@ class JobPostViewController: UIViewController {
         skillRequiredLabel.text = ("Requires: \(requiredLanguage)")
         jobDescriptionText.text = "Job Bio"
         emailCompanyButton.titleLabel?.text = ("Email  \(companyName)")
+    
     }
     @IBAction func sendEmail(sender: UIButton) {
-      let mailVC = MFMailComposeViewController()
-        mailVC.mailComposeDelegate = self as! MFMailComposeViewControllerDelegate
+        let mailVC = MFMailComposeViewController()
+        mailVC.mailComposeDelegate = self
         mailVC.setToRecipients([companyEmail])
         mailVC.setSubject("RE: Internie Interest")
         mailVC.setMessageBody("Dear \(companyName),", isHTML: false)
@@ -46,3 +48,5 @@ class JobPostViewController: UIViewController {
     }
     
 }
+
+
