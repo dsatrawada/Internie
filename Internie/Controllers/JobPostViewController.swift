@@ -46,7 +46,9 @@ class JobPostViewController: UIViewController, MFMailComposeViewControllerDelega
         
         present(mailVC, animated: true, completion: nil)
     }
-    
+    @IBAction func unwindWithSegue(_ segue: UIStoryboardSegue){
+        <#code#>
+    }
 }
 
 
