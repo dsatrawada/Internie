@@ -21,10 +21,17 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
+        
     }
     
     
     @IBAction func loginButtonTapped(_ sender: UIButton) {
+      
+        
+        
         print("i was tapped")
         guard let authUI = FUIAuth.defaultAuthUI()
             else { return }
@@ -33,6 +40,7 @@ class LoginViewController: UIViewController {
         
         let authViewController = authUI.authViewController()
         present(authViewController, animated: true)
+        
     }
 }
 
@@ -43,7 +51,12 @@ extension LoginViewController: FUIAuthDelegate {
             return
         }
         
+        if let vc = UIStoryboard(name: "RegistrationEmployer", bundle: .main).instantiateInitialViewController() {
+            present(vc, animated: true, completion: nil)
+        }
         print("handle user signup / login")
+        
+        return
     }
 }
 
@@ -62,10 +75,12 @@ func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, er
     
     // 3
     userRef.observeSingleEvent(of: .value, with: { (snapshot) in
-        if let user = User(snapshot: snapshot) {
-            print("Welcome back, \(user.name).")
+        if let user = Employer(snapshot: snapshot) {
+            print("Welcome back, \(user.username).")
+            
         } else {
             print("New user!")
+            
         }
     })
 }
