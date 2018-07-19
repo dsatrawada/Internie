@@ -21,17 +21,17 @@ class JobPostViewController: UIViewController, MFMailComposeViewControllerDelega
     @IBOutlet weak var skillRequiredLabel: UILabel!
     @IBOutlet weak var companyZipLabel: UILabel!
     @IBOutlet weak var emailCompanyButton: UIButton!
-    let companyEmail = "Company Email Address"
-    let companyName = "Company Name"
+    let companyEmail = RegistrationEmployerViewController.email
+    let companyName = RegistrationEmployerViewController.username
     let requiredLanguage = "Swift"
     func setUpViews(){
         jobDescriptionView.layer.borderWidth = 1
         jobDescriptionView.layer.borderColor = UIColor.black as! CGColor
         companyNameLabel.text = companyName
-        companyWebsiteLabel.text = "Company Website Address"
+        companyWebsiteLabel.text = RegistrationEmployerViewController.addr
         companyAddressLabel.text = "Company Address Line 1"
-        companyCityAndStateLabel.text = ("City" + ", State")
-        companyZipLabel.text = "Company Zip Code"
+        companyCityAndStateLabel.text = ("\(RegistrationEmployerViewController.city), \(RegistrationEmployerViewController.state)")
+        companyZipLabel.text = RegistrationEmployerViewController.zip
         skillRequiredLabel.text = ("Requires: \(requiredLanguage)")
         jobDescriptionText.text = "Job Bio"
         emailCompanyButton.titleLabel?.text = ("Email  \(companyName)")
@@ -46,9 +46,16 @@ class JobPostViewController: UIViewController, MFMailComposeViewControllerDelega
         
         present(mailVC, animated: true, completion: nil)
     }
+<<<<<<< HEAD
 //    @IBAction func unwindWithSegue(_ segue: UIStoryboardSegue){
 //        <#code#>
 //    }
 }
+=======
+    @IBAction func unwindWithSegue(_ segue: UIStoryboardSegue){
+        <#code#>
+    }
+} 
+>>>>>>> intern-job-listings
 
 
