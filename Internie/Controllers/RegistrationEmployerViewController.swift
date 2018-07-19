@@ -51,8 +51,9 @@ class RegistrationEmployerViewController: UIViewController {
             !website.isEmpty else { return }
         
         
-        EmployerService.createEmpolyer(firUser, username: username, phone: phone, addr: addr, city: city, state: state, zip: zip, website: website) { (user) in
+        EmployerService.createEmployer(firUser, username: username, phone: phone, addr: addr, city: city, state: state, zip: zip, website: website) { (user) in
             guard let user = user else { return }
+            
             
             print("Created new user: \(user.username)")
         }

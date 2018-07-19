@@ -75,8 +75,8 @@ func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, er
     
     // 3
     userRef.observeSingleEvent(of: .value, with: { (snapshot) in
-        if let user = User(snapshot: snapshot) {
-            print("Welcome back, \(user.name).")
+        if let user = Employer(snapshot: snapshot) {
+            print("Welcome back, \(user.username).")
             
         } else {
             print("New user!")
