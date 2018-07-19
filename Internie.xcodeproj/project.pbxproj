@@ -13,6 +13,7 @@
 		17DF006020FE961C00BAB349 /* Intern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DF005F20FE961C00BAB349 /* Intern.storyboard */; };
 		17DF008720FFA7C200BAB349 /* InternHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */; };
 		17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008820FFA90500BAB349 /* JobPostViewController.swift */; };
+		17DF008B20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008A20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift */; };
 		407BA0CB3E49AC483F8BEF45 /* Pods_Internie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */; };
 		5FA0C9AF20FFB6EB0085CFB8 /* Employer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */; };
 		5FA0C9B120FFB75E0085CFB8 /* EmployerHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B020FFB75E0085CFB8 /* EmployerHomePageViewController.swift */; };
@@ -39,6 +40,7 @@
 		17DF005F20FE961C00BAB349 /* Intern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intern.storyboard; sourceTree = "<group>"; };
 		17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternHomePageViewController.swift; sourceTree = "<group>"; };
 		17DF008820FFA90500BAB349 /* JobPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostViewController.swift; sourceTree = "<group>"; };
+		17DF008A20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListPotentialInternshipsTableViewCell.swift; path = Internie/Controllers/ListPotentialInternshipsTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.debug.xcconfig"; sourceTree = "<group>"; };
 		5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Employer.storyboard; sourceTree = "<group>"; };
 		5FA0C9B020FFB75E0085CFB8 /* EmployerHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerHomePageViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		D46A3ABD20FE59E400E20EE7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				17DF008A20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				8C4C6D9120FFDFD7004EB980 /* User.swift in Sources */,
 				17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */,
 				5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */,
+				17DF008B20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift in Sources */,
 				5FC18E1D20FE6894008DCEB7 /* RegistrationInternViewController.swift in Sources */,
 				5FA0C9B320FFBC9F0085CFB8 /* CreateJobPostViewController.swift in Sources */,
 			);

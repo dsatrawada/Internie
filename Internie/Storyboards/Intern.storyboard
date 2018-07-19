@@ -29,7 +29,7 @@
                             </items>
                         </navigationBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="potentialInternshipCell" id="jdU-jw-jgd">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="potentialInternshipCell" id="jdU-jw-jgd" customClass="ListPotentialInternshipCell" customModule="Internie" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jdU-jw-jgd" id="jHb-ZJ-xRc">
@@ -41,6 +41,7 @@
                                         </stackView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;Job Title&quot; for &quot;Company Name&quot;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n3s-9k-Frv">
                                             <rect key="frame" x="33" y="11" width="245" height="21"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="internshipTitleLabel"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -72,6 +73,7 @@
                                     <constraint firstItem="n3s-9k-Frv" firstAttribute="centerY" secondItem="jdU-jw-jgd" secondAttribute="centerY" id="6R2-yY-D4U"/>
                                 </constraints>
                                 <connections>
+                                    <outlet property="internShipTitleLabel" destination="n3s-9k-Frv" id="hLT-MF-YfX"/>
                                     <segue destination="QMo-oY-rba" kind="show" id="et7-fH-C7n"/>
                                 </connections>
                             </tableViewCell>
@@ -81,10 +83,6 @@
                             <outlet property="delegate" destination="Fn5-XL-2sg" id="bNO-Sd-ece"/>
                         </connections>
                     </tableView>
-                    <connections>
-                        <outlet property="internshipCell" destination="jdU-jw-jgd" id="hTN-kX-P2z"/>
-                        <outlet property="internshipTitleLabel" destination="n3s-9k-Frv" id="SQD-NO-Dsh"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdD-RG-Uur" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
