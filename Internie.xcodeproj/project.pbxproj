@@ -30,8 +30,6 @@
 		5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF420FD1976008DCEB7 /* ViewController.swift */; };
 		5FC18DF820FD1976008DCEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DF620FD1976008DCEB7 /* Main.storyboard */; };
 		5FC18DFA20FD197B008DCEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DF920FD197B008DCEB7 /* Assets.xcassets */; };
-		5FC18E1720FE5AE7008DCEB7 /* RegistrationEmployer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */; };
-		5FC18E1920FE5B27008DCEB7 /* RegistrationIntern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */; };
 		5FC18E1B20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18E1A20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift */; };
 		5FC18E1D20FE6894008DCEB7 /* RegistrationInternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18E1C20FE6894008DCEB7 /* RegistrationInternViewController.swift */; };
 		D46A3ABC20FE595E00E20EE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D46A3ABB20FE595E00E20EE7 /* GoogleService-Info.plist */; };
@@ -64,8 +62,6 @@
 		5FC18DF720FD1976008DCEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FC18DF920FD197B008DCEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FC18DFE20FD197B008DCEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationEmployer.storyboard; sourceTree = "<group>"; };
-		5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationIntern.storyboard; sourceTree = "<group>"; };
 		5FC18E1A20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationEmployerViewController.swift; sourceTree = "<group>"; };
 		5FC18E1C20FE6894008DCEB7 /* RegistrationInternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationInternViewController.swift; sourceTree = "<group>"; };
 		BD547730F0C35A14AAE0BCE8 /* Pods-Internie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,8 +157,6 @@
 				17DF005D20FE910200BAB349 /* LaunchScreen.storyboard */,
 				17DF005F20FE961C00BAB349 /* Intern.storyboard */,
 				5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */,
-				5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */,
-				5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */,
 				5F93683D21016BEB0062A683 /* Registration.storyboard */,
 			);
 			path = Storyboards;
@@ -279,9 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC18E1720FE5AE7008DCEB7 /* RegistrationEmployer.storyboard in Resources */,
 				D46A3ABC20FE595E00E20EE7 /* GoogleService-Info.plist in Resources */,
-				5FC18E1920FE5B27008DCEB7 /* RegistrationIntern.storyboard in Resources */,
 				5FA0C9AF20FFB6EB0085CFB8 /* Employer.storyboard in Resources */,
 				5FC18DFA20FD197B008DCEB7 /* Assets.xcassets in Resources */,
 				5F93683E21016BEB0062A683 /* Registration.storyboard in Resources */,
