@@ -359,6 +359,9 @@
                                                     <state key="normal" title="Create Account">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="createInternButtonTapped:" destination="QOt-9F-rxv" eventType="touchUpInside" id="Xa0-td-Flb"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -373,6 +376,19 @@
                     </tableView>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="700"/>
+                    <connections>
+                        <outlet property="CreateInternButton" destination="7B1-ST-GQJ" id="RWI-Ms-DfY"/>
+                        <outlet property="InternAgeSwitch" destination="f3h-4L-Dgk" id="bqk-Oz-S6w"/>
+                        <outlet property="InternCPPSwitch" destination="WS5-QX-Vdg" id="tHg-lm-9m9"/>
+                        <outlet property="InternGitHubField" destination="iNP-In-e6t" id="Qwb-Hj-DXL"/>
+                        <outlet property="InternJavaSwitch" destination="qMl-AN-WUa" id="0Gj-wa-Jtx"/>
+                        <outlet property="InternNameField" destination="IvI-qf-dHg" id="KxG-NY-GdE"/>
+                        <outlet property="InternPhoneField" destination="G90-MZ-6xI" id="euB-je-f0z"/>
+                        <outlet property="InternProjectsField" destination="aXO-Th-2yT" id="Vi0-Nu-sAL"/>
+                        <outlet property="InternPythonSwitch" destination="i9d-jT-L7A" id="5XL-DF-HJl"/>
+                        <outlet property="InternSwiftSwitch" destination="hcL-1z-O16" id="DWQ-iE-7hb"/>
+                        <outlet property="InternZipCodeField" destination="QCs-az-XU1" id="cXP-jh-fVb"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2B4-Aj-WaM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

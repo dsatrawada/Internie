@@ -14,9 +14,7 @@ import FirebaseDatabase
 class RegistrationEmployerViewController: UIViewController {
     @IBOutlet weak var CreateEmployerButton: UIButton!
     @IBOutlet weak var EmployerNameField: UITextField!
-    @IBOutlet weak var EmployerEmailField: UITextField!
     @IBOutlet weak var EmployerAddressField: UITextField!
-    
     @IBOutlet weak var EmployerPhoneField: UITextField!
     @IBOutlet weak var EmployerWebsiteField: UITextField!
     @IBOutlet weak var EmployerZipCodeField: UITextField!
@@ -28,9 +26,6 @@ class RegistrationEmployerViewController: UIViewController {
         guard let firUser = Auth.auth().currentUser,
             let username = EmployerNameField.text,
             !username.isEmpty,
-            
-            let email = EmployerEmailField.text,
-            !email.isEmpty,
             
             let phone = EmployerPhoneField.text,
             !phone.isEmpty,

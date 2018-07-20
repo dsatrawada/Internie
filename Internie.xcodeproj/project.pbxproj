@@ -17,6 +17,8 @@
 		407BA0CB3E49AC483F8BEF45 /* Pods_Internie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */; };
 		5F119732210141260055123E /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F119731210141260055123E /* Employer.swift */; };
 		5F119734210141340055123E /* EmployerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F119733210141340055123E /* EmployerService.swift */; };
+		5F119736210142E40055123E /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F119735210142E40055123E /* Intern.swift */; };
+		5F119738210142F80055123E /* InternService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F119737210142F80055123E /* InternService.swift */; };
 		5FA0C9AF20FFB6EB0085CFB8 /* Employer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */; };
 		5FA0C9B120FFB75E0085CFB8 /* EmployerHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B020FFB75E0085CFB8 /* EmployerHomePageViewController.swift */; };
 		5FA0C9B320FFBC9F0085CFB8 /* CreateJobPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B220FFBC9F0085CFB8 /* CreateJobPostViewController.swift */; };
@@ -45,6 +47,8 @@
 		20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.debug.xcconfig"; sourceTree = "<group>"; };
 		5F119731210141260055123E /* Employer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Employer.swift; path = ../../../../../.Trash/Employer.swift; sourceTree = "<group>"; };
 		5F119733210141340055123E /* EmployerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployerService.swift; path = ../../../../../.Trash/EmployerService.swift; sourceTree = "<group>"; };
+		5F119735210142E40055123E /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
+		5F119737210142F80055123E /* InternService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternService.swift; sourceTree = "<group>"; };
 		5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Employer.storyboard; sourceTree = "<group>"; };
 		5FA0C9B020FFB75E0085CFB8 /* EmployerHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerHomePageViewController.swift; sourceTree = "<group>"; };
 		5FA0C9B220FFBC9F0085CFB8 /* CreateJobPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJobPostViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				5F119733210141340055123E /* EmployerService.swift */,
+				5F119737210142F80055123E /* InternService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				5F119731210141260055123E /* Employer.swift */,
+				5F119735210142E40055123E /* Intern.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -359,10 +365,12 @@
 				17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */,
 				5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */,
 				17DF008B20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift in Sources */,
+				5F119736210142E40055123E /* Intern.swift in Sources */,
 				5FC18E1D20FE6894008DCEB7 /* RegistrationInternViewController.swift in Sources */,
 				5F119732210141260055123E /* Employer.swift in Sources */,
 				5F119734210141340055123E /* EmployerService.swift in Sources */,
 				5FA0C9B320FFBC9F0085CFB8 /* CreateJobPostViewController.swift in Sources */,
+				5F119738210142F80055123E /* InternService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
