@@ -15,8 +15,6 @@
 		17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008820FFA90500BAB349 /* JobPostViewController.swift */; };
 		17DF008B20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008A20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift */; };
 		407BA0CB3E49AC483F8BEF45 /* Pods_Internie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */; };
-		5F119732210141260055123E /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F119731210141260055123E /* Employer.swift */; };
-		5F119734210141340055123E /* EmployerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F119733210141340055123E /* EmployerService.swift */; };
 		5F119736210142E40055123E /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F119735210142E40055123E /* Intern.swift */; };
 		5F119738210142F80055123E /* InternService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F119737210142F80055123E /* InternService.swift */; };
 		5F93683A21016B060062A683 /* JobPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F93683921016B060062A683 /* JobPostService.swift */; };
@@ -33,6 +31,8 @@
 		5FC18E1B20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18E1A20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift */; };
 		5FC18E1D20FE6894008DCEB7 /* RegistrationInternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18E1C20FE6894008DCEB7 /* RegistrationInternViewController.swift */; };
 		D46A3ABC20FE595E00E20EE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D46A3ABB20FE595E00E20EE7 /* GoogleService-Info.plist */; };
+		D476ADDA2101907F006D8C35 /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D476ADD92101907E006D8C35 /* Employer.swift */; };
+		D476ADDE21019215006D8C35 /* EmployerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D476ADDD21019215006D8C35 /* EmployerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,8 +45,6 @@
 		17DF008820FFA90500BAB349 /* JobPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostViewController.swift; sourceTree = "<group>"; };
 		17DF008A20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListPotentialInternshipsTableViewCell.swift; path = Internie/Controllers/ListPotentialInternshipsTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.debug.xcconfig"; sourceTree = "<group>"; };
-		5F119731210141260055123E /* Employer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Employer.swift; path = ../../../../../.Trash/Employer.swift; sourceTree = "<group>"; };
-		5F119733210141340055123E /* EmployerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployerService.swift; path = ../../../../../.Trash/EmployerService.swift; sourceTree = "<group>"; };
 		5F119735210142E40055123E /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
 		5F119737210142F80055123E /* InternService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternService.swift; sourceTree = "<group>"; };
 		5F93683921016B060062A683 /* JobPostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostService.swift; sourceTree = "<group>"; };
@@ -66,6 +64,8 @@
 		5FC18E1C20FE6894008DCEB7 /* RegistrationInternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationInternViewController.swift; sourceTree = "<group>"; };
 		BD547730F0C35A14AAE0BCE8 /* Pods-Internie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.release.xcconfig"; sourceTree = "<group>"; };
 		D46A3ABB20FE595E00E20EE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D476ADD92101907E006D8C35 /* Employer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employer.swift; sourceTree = "<group>"; };
+		D476ADDD21019215006D8C35 /* EmployerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployerService.swift; path = ../../../../../Downloads/EmployerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +165,7 @@
 		D46A3AC020FE5A0100E20EE7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				5F119733210141340055123E /* EmployerService.swift */,
+				D476ADDD21019215006D8C35 /* EmployerService.swift */,
 				5F119737210142F80055123E /* InternService.swift */,
 				5F93683921016B060062A683 /* JobPostService.swift */,
 			);
@@ -175,7 +175,7 @@
 		D46A3AC120FE5A0800E20EE7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5F119731210141260055123E /* Employer.swift */,
+				D476ADD92101907E006D8C35 /* Employer.swift */,
 				5F119735210142E40055123E /* Intern.swift */,
 			);
 			path = Models;
@@ -364,12 +364,12 @@
 				17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */,
 				5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */,
 				5F93683A21016B060062A683 /* JobPostService.swift in Sources */,
+				D476ADDA2101907F006D8C35 /* Employer.swift in Sources */,
 				17DF008B20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift in Sources */,
 				5F119736210142E40055123E /* Intern.swift in Sources */,
 				5FC18E1D20FE6894008DCEB7 /* RegistrationInternViewController.swift in Sources */,
-				5F119732210141260055123E /* Employer.swift in Sources */,
-				5F119734210141340055123E /* EmployerService.swift in Sources */,
 				5FA0C9B320FFBC9F0085CFB8 /* CreateJobPostViewController.swift in Sources */,
+				D476ADDE21019215006D8C35 /* EmployerService.swift in Sources */,
 				5F119738210142F80055123E /* InternService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -50,38 +50,28 @@ extension LoginViewController: FUIAuthDelegate {
             assertionFailure("Error signing in: \(error.localizedDescription)")
             return
         }
+        guard let user = authDataResult?.user
+            else { return }
         
-        if let vc = UIStoryboard(name: "RegistrationEmployer", bundle: .main).instantiateInitialViewController() {
-            present(vc, animated: true, completion: nil)
-        }
+        let userRef = Database.database().reference().child("users").child(user.uid)
+        userRef.observeSingleEvent(of: .value, with: { (snapshot) in
+            if let user = Employer(snapshot: snapshot) {
+                print("Welcome back, \(user.username).")
+                
+            } else {
+                if let vc = UIStoryboard(name: "Registration", bundle: .main).instantiateInitialViewController() {
+                    //present(vc, animated: true, completion: nil)
+                    self.present(vc, animated: true, completion: nil)
+                }
+                
+            }
+        })
+        
         print("handle user signup / login")
         
         return
     }
 }
 
-func authUI(_ authUI: FUIAuth, didSignInWith authDataResult: AuthDataResult?, error: Error?) {
-    if let error = error {
-        assertionFailure("Error signing in: \(error.localizedDescription)")
-        return
-    }
-    
-    // 1
-    guard let user = authDataResult?.user
-        else { return }
-    
-    // 2
-    let userRef = Database.database().reference().child("users").child(user.uid)
-    
-    // 3
-    userRef.observeSingleEvent(of: .value, with: { (snapshot) in
-        if let user = Employer(snapshot: snapshot) {
-            print("Welcome back, \(user.username).")
-            
-        } else {
-            print("New user!")
-            
-        }
-    })
-}
+
 
