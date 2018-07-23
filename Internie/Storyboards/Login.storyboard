@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tGD-fz-uZh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="yX8-7v-BLP">
+            <objects>
+                <viewController id="tGD-fz-uZh" customClass="LoginViewController" customModule="Internie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sO1-EE-Q5q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v47-av-Quy">
+                                <rect key="frame" x="25" y="504" width="325" height="89"/>
+                                <color key="backgroundColor" red="0.1803921568627451" green="0.64313725490196072" blue="0.7803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="rgO-po-vwD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="tGD-fz-uZh" eventType="touchUpInside" id="xVd-oS-r4Z"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ilc-7W-T47">
+                                <rect key="frame" x="25" y="189" width="325" height="119.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RwY-eD-jqV">
+                                        <rect key="frame" x="0.0" y="0.0" width="25" height="119.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="100"/>
+                                        <color key="textColor" red="0.98039215690000003" green="0.32549019610000002" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nternie" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2Y-gK-Gzo">
+                                        <rect key="frame" x="25" y="0.0" width="300" height="119.5"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="100"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="PR0-7n-gKt" firstAttribute="trailing" secondItem="ilc-7W-T47" secondAttribute="trailing" constant="25" id="3fV-tq-39H"/>
+                            <constraint firstItem="v47-av-Quy" firstAttribute="leading" secondItem="PR0-7n-gKt" secondAttribute="leading" constant="25" id="6pl-u3-Qhs"/>
+                            <constraint firstItem="PR0-7n-gKt" firstAttribute="trailing" secondItem="v47-av-Quy" secondAttribute="trailing" constant="25" id="Qd6-4F-gDn"/>
+                            <constraint firstItem="ilc-7W-T47" firstAttribute="leading" secondItem="PR0-7n-gKt" secondAttribute="leading" constant="25" id="dW3-Bh-Cvc"/>
+                            <constraint firstItem="ilc-7W-T47" firstAttribute="top" secondItem="PR0-7n-gKt" secondAttribute="top" constant="169" id="gVF-0P-JG0"/>
+                            <constraint firstItem="PR0-7n-gKt" firstAttribute="bottom" secondItem="v47-av-Quy" secondAttribute="bottom" constant="74" id="tPT-Pr-dgR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PR0-7n-gKt"/>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="v47-av-Quy" id="vzT-p2-t3D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKZ-Sd-xGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+</document>

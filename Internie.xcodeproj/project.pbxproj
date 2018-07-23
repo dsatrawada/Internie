@@ -7,35 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170B8AF020FE69D900989FB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B8AEF20FE69D900989FB3 /* LoginViewController.swift */; };
+		17DF005C20FE90B300BAB349 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DF005B20FE90B300BAB349 /* Login.storyboard */; };
+		17DF005E20FE910200BAB349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DF005D20FE910200BAB349 /* LaunchScreen.storyboard */; };
+		17DF006020FE961C00BAB349 /* Intern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DF005F20FE961C00BAB349 /* Intern.storyboard */; };
+		17DF008720FFA7C200BAB349 /* InternHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */; };
+		17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008820FFA90500BAB349 /* JobPostViewController.swift */; };
+		17DF008B20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF008A20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift */; };
 		407BA0CB3E49AC483F8BEF45 /* Pods_Internie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */; };
+		5F119736210142E40055123E /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F119735210142E40055123E /* Intern.swift */; };
+		5F119738210142F80055123E /* InternService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F119737210142F80055123E /* InternService.swift */; };
+		5F93683A21016B060062A683 /* JobPostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F93683921016B060062A683 /* JobPostService.swift */; };
+		5F93683E21016BEB0062A683 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F93683D21016BEB0062A683 /* Registration.storyboard */; };
+		5F936840210192A30062A683 /* WhatAreYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F93683F210192A30062A683 /* WhatAreYouViewController.swift */; };
+		5FA0C9AF20FFB6EB0085CFB8 /* Employer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */; };
+		5FA0C9B120FFB75E0085CFB8 /* EmployerHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B020FFB75E0085CFB8 /* EmployerHomePageViewController.swift */; };
+		5FA0C9B320FFBC9F0085CFB8 /* CreateJobPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B220FFBC9F0085CFB8 /* CreateJobPostViewController.swift */; };
+		5FA0C9B520FFBD1B0085CFB8 /* InternMatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B420FFBD1B0085CFB8 /* InternMatchesViewController.swift */; };
+		5FA0C9B720FFBD950085CFB8 /* InternProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA0C9B620FFBD950085CFB8 /* InternProfileViewController.swift */; };
 		5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */; };
 		5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18DF420FD1976008DCEB7 /* ViewController.swift */; };
 		5FC18DF820FD1976008DCEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DF620FD1976008DCEB7 /* Main.storyboard */; };
 		5FC18DFA20FD197B008DCEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DF920FD197B008DCEB7 /* Assets.xcassets */; };
-		5FC18DFD20FD197B008DCEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18DFB20FD197B008DCEB7 /* LaunchScreen.storyboard */; };
-		5FC18E1720FE5AE7008DCEB7 /* RegistrationEmployer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */; };
-		5FC18E1920FE5B27008DCEB7 /* RegistrationIntern.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */; };
 		5FC18E1B20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18E1A20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift */; };
 		5FC18E1D20FE6894008DCEB7 /* RegistrationInternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC18E1C20FE6894008DCEB7 /* RegistrationInternViewController.swift */; };
 		D46A3ABC20FE595E00E20EE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D46A3ABB20FE595E00E20EE7 /* GoogleService-Info.plist */; };
+		D476ADDA2101907F006D8C35 /* Employer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D476ADD92101907E006D8C35 /* Employer.swift */; };
+		D476ADDE21019215006D8C35 /* EmployerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D476ADDD21019215006D8C35 /* EmployerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04037D118CCBE623FDB0BCD6 /* Pods_Internie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Internie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		170B8AEF20FE69D900989FB3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		17DF005B20FE90B300BAB349 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		17DF005D20FE910200BAB349 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17DF005F20FE961C00BAB349 /* Intern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intern.storyboard; sourceTree = "<group>"; };
+		17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternHomePageViewController.swift; sourceTree = "<group>"; };
+		17DF008820FFA90500BAB349 /* JobPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostViewController.swift; sourceTree = "<group>"; };
+		17DF008A20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListPotentialInternshipsTableViewCell.swift; path = Internie/Controllers/ListPotentialInternshipsTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		20D17805D69B65F259BC1B68 /* Pods-Internie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.debug.xcconfig"; sourceTree = "<group>"; };
+		5F119735210142E40055123E /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
+		5F119737210142F80055123E /* InternService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternService.swift; sourceTree = "<group>"; };
+		5F93683921016B060062A683 /* JobPostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostService.swift; sourceTree = "<group>"; };
+		5F93683D21016BEB0062A683 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		5F93683F210192A30062A683 /* WhatAreYouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatAreYouViewController.swift; sourceTree = "<group>"; };
+		5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Employer.storyboard; sourceTree = "<group>"; };
+		5FA0C9B020FFB75E0085CFB8 /* EmployerHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployerHomePageViewController.swift; sourceTree = "<group>"; };
+		5FA0C9B220FFBC9F0085CFB8 /* CreateJobPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJobPostViewController.swift; sourceTree = "<group>"; };
+		5FA0C9B420FFBD1B0085CFB8 /* InternMatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternMatchesViewController.swift; sourceTree = "<group>"; };
+		5FA0C9B620FFBD950085CFB8 /* InternProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternProfileViewController.swift; sourceTree = "<group>"; };
 		5FC18DEF20FD1976008DCEB7 /* Internie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Internie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC18DF220FD1976008DCEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FC18DF420FD1976008DCEB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5FC18DF720FD1976008DCEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FC18DF920FD197B008DCEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5FC18DFC20FD197B008DCEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FC18DFE20FD197B008DCEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationEmployer.storyboard; sourceTree = "<group>"; };
-		5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RegistrationIntern.storyboard; sourceTree = "<group>"; };
 		5FC18E1A20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationEmployerViewController.swift; sourceTree = "<group>"; };
 		5FC18E1C20FE6894008DCEB7 /* RegistrationInternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationInternViewController.swift; sourceTree = "<group>"; };
 		BD547730F0C35A14AAE0BCE8 /* Pods-Internie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Internie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Internie/Pods-Internie.release.xcconfig"; sourceTree = "<group>"; };
 		D46A3ABB20FE595E00E20EE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D476ADD92101907E006D8C35 /* Employer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Employer.swift; sourceTree = "<group>"; };
+		D476ADDD21019215006D8C35 /* EmployerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmployerService.swift; path = ../../../../../Downloads/EmployerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +137,7 @@
 		D46A3ABD20FE59E400E20EE7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				17DF008A20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,10 +154,12 @@
 		D46A3ABF20FE59FA00E20EE7 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				5FC18DFB20FD197B008DCEB7 /* LaunchScreen.storyboard */,
 				5FC18DF620FD1976008DCEB7 /* Main.storyboard */,
-				5FC18E1620FE5AE7008DCEB7 /* RegistrationEmployer.storyboard */,
-				5FC18E1820FE5B27008DCEB7 /* RegistrationIntern.storyboard */,
+				17DF005B20FE90B300BAB349 /* Login.storyboard */,
+				17DF005D20FE910200BAB349 /* LaunchScreen.storyboard */,
+				17DF005F20FE961C00BAB349 /* Intern.storyboard */,
+				5FA0C9AE20FFB6EB0085CFB8 /* Employer.storyboard */,
+				5F93683D21016BEB0062A683 /* Registration.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -132,6 +167,9 @@
 		D46A3AC020FE5A0100E20EE7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D476ADDD21019215006D8C35 /* EmployerService.swift */,
+				5F119737210142F80055123E /* InternService.swift */,
+				5F93683921016B060062A683 /* JobPostService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -139,6 +177,8 @@
 		D46A3AC120FE5A0800E20EE7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D476ADD92101907E006D8C35 /* Employer.swift */,
+				5F119735210142E40055123E /* Intern.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +203,14 @@
 				5FC18DF420FD1976008DCEB7 /* ViewController.swift */,
 				5FC18E1A20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift */,
 				5FC18E1C20FE6894008DCEB7 /* RegistrationInternViewController.swift */,
+				170B8AEF20FE69D900989FB3 /* LoginViewController.swift */,
+				17DF008620FFA7C200BAB349 /* InternHomePageViewController.swift */,
+				17DF008820FFA90500BAB349 /* JobPostViewController.swift */,
+				5FA0C9B020FFB75E0085CFB8 /* EmployerHomePageViewController.swift */,
+				5FA0C9B220FFBC9F0085CFB8 /* CreateJobPostViewController.swift */,
+				5FA0C9B420FFBD1B0085CFB8 /* InternMatchesViewController.swift */,
+				5FA0C9B620FFBD950085CFB8 /* InternProfileViewController.swift */,
+				5F93683F210192A30062A683 /* WhatAreYouViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -228,11 +276,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC18E1720FE5AE7008DCEB7 /* RegistrationEmployer.storyboard in Resources */,
-				5FC18DFD20FD197B008DCEB7 /* LaunchScreen.storyboard in Resources */,
 				D46A3ABC20FE595E00E20EE7 /* GoogleService-Info.plist in Resources */,
-				5FC18E1920FE5B27008DCEB7 /* RegistrationIntern.storyboard in Resources */,
+				5FA0C9AF20FFB6EB0085CFB8 /* Employer.storyboard in Resources */,
 				5FC18DFA20FD197B008DCEB7 /* Assets.xcassets in Resources */,
+				5F93683E21016BEB0062A683 /* Registration.storyboard in Resources */,
+				17DF005C20FE90B300BAB349 /* Login.storyboard in Resources */,
+				17DF006020FE961C00BAB349 /* Intern.storyboard in Resources */,
+				17DF005E20FE910200BAB349 /* LaunchScreen.storyboard in Resources */,
 				5FC18DF820FD1976008DCEB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,9 +358,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FC18E1B20FE5F24008DCEB7 /* RegistrationEmployerViewController.swift in Sources */,
+				5FA0C9B120FFB75E0085CFB8 /* EmployerHomePageViewController.swift in Sources */,
+				5FA0C9B520FFBD1B0085CFB8 /* InternMatchesViewController.swift in Sources */,
+				170B8AF020FE69D900989FB3 /* LoginViewController.swift in Sources */,
+				5FA0C9B720FFBD950085CFB8 /* InternProfileViewController.swift in Sources */,
+				17DF008720FFA7C200BAB349 /* InternHomePageViewController.swift in Sources */,
 				5FC18DF520FD1976008DCEB7 /* ViewController.swift in Sources */,
+				17DF008920FFA90500BAB349 /* JobPostViewController.swift in Sources */,
 				5FC18DF320FD1976008DCEB7 /* AppDelegate.swift in Sources */,
+				5F93683A21016B060062A683 /* JobPostService.swift in Sources */,
+				D476ADDA2101907F006D8C35 /* Employer.swift in Sources */,
+				17DF008B20FFFAE500BAB349 /* ListPotentialInternshipsTableViewCell.swift in Sources */,
+				5F119736210142E40055123E /* Intern.swift in Sources */,
 				5FC18E1D20FE6894008DCEB7 /* RegistrationInternViewController.swift in Sources */,
+				5F936840210192A30062A683 /* WhatAreYouViewController.swift in Sources */,
+				5F119732210141260055123E /* Employer.swift in Sources */,
+				5F119734210141340055123E /* EmployerService.swift in Sources */,
+				5FA0C9B320FFBC9F0085CFB8 /* CreateJobPostViewController.swift in Sources */,
+				D476ADDE21019215006D8C35 /* EmployerService.swift in Sources */,
+				5F119738210142F80055123E /* InternService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,14 +389,6 @@
 				5FC18DF720FD1976008DCEB7 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5FC18DFB20FD197B008DCEB7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5FC18DFC20FD197B008DCEB7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
